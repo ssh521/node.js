@@ -4,3 +4,5 @@ github에 업로드하고 네트라피이에서 무료 호스팅을 계획중이
 [netlify](https://www.netlify.com/)  
 
 <br><br>
+
+myapp 폴더는 기본적인 탬플릿 입니다.
