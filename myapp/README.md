@@ -16,3 +16,32 @@
     // myapp 폴더에서
     >npm start
 
+<br>
+
+## nodemon 적용시키기     
+
+<br>
+
+### 코드 변경시 즉시 코드내용을 적용시켜주는 모듈입니다.
+
+    npm install -g nodemon
+
+### package.json 파일내용 수정하기
+    
+    "scripts": {
+        "start": "nodemon ./bin/www"
+    },
+
+
+### 서버실행하기
+
+    npm start
+
+    [nodemon] 2.0.14
+    [nodemon] to restart at any time, enter `rs`
+    [nodemon] watching path(s): *.*
+    [nodemon] watching extensions: js,mjs,json
+    [nodemon] starting `node ./bin/www`
+
+
+
